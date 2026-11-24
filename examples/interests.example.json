@@ -1,0 +1,66 @@
+{
+  "session_id": "lecture-2026-01-10",
+  "title": "数据结构 第 7 讲",
+  "consent": false,
+  "save_transcript": true,
+  "interests": [
+    {
+      "id": "dp",
+      "question": "老师讲动态规划状态转移方程的那几分钟",
+      "definition": "写出状态定义、转移方程、边界条件和计算顺序，并用一个完整例题说明。只提一句“用动态规划”不算。",
+      "keywords": [
+        "动态规划",
+        "状态转移方程",
+        "状态定义"
+      ]
+    },
+    {
+      "id": "exam",
+      "question": "期末考试范围和必考题型",
+      "definition": "老师明确列出考试章节、题型、分值或“必考/不考”的结论。",
+      "keywords": [
+        "考试范围",
+        "考点",
+        "必考"
+      ]
+    }
+  ],
+  "semantic": {
+    "enabled": true,
+    "backend": "host",
+    "window_seconds": 45.0,
+    "interval_seconds": 25.0,
+    "min_new_chars": 80,
+    "min_confidence": 0.6,
+    "max_pending": 2,
+    "max_interests": 40
+  },
+  "capture": {
+    "source": "loopback",
+    "screen": true,
+    "fps": 1.0,
+    "video_fps": 5.0,
+    "video_width": 1280,
+    "video_crf": 28,
+    "monitor": 1,
+    "audio_device": null,
+    "mic_device": null
+  },
+  "asr": {
+    "model": "base",
+    "language": "zh",
+    "device": "cpu",
+    "chunk_seconds": 10.0,
+    "step_seconds": 3.0,
+    "vad_rms": 250,
+    "vad_filter": true
+  },
+  "trigger": {
+    "ring_seconds": 300.0,
+    "min_span": 45.0,
+    "max_span": 600.0,
+    "semantic_grace_seconds": 90.0,
+    "manual_span_seconds": 120.0,
+    "max_gap": 20.0
+  }
+}
